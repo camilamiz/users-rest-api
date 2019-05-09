@@ -16,7 +16,6 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
-gem 'simple_token_authentication'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
@@ -29,4 +28,6 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
+  gem 'simple_token_authentication'
+  gem 'rspec-rails', '~> 3.8'
 end
