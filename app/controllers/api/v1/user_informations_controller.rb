@@ -9,6 +9,16 @@ class Api::V1::UserInformationsController < Api::V1::BaseController
   def show
   end
 
+  def create
+    @user_information = UserInformation.new(user_information_params)
+    @user_information.user = current_user
+    if @user_information.save
+      render :show, status: :created
+    else
+      render_error
+    end
+  end
+
   def update
     if @user_information.update(user_information_params)
       render :show
