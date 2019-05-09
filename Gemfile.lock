@@ -81,6 +81,11 @@ GEM
     equatable (0.5.0)
     erubi (1.8.0)
     execjs (2.7.0)
+    factory_bot (4.11.1)
+      activesupport (>= 3.0.0)
+    factory_bot_rails (4.11.1)
+      factory_bot (~> 4.11.1)
+      railties (>= 3.0.0)
     ffi (1.10.0)
     font-awesome-sass (5.6.1)
       sassc (>= 1.11)
@@ -252,6 +257,7 @@ DEPENDENCIES
   bootsnap
   devise
   dotenv-rails
+  factory_bot_rails
   faker!
   font-awesome-sass (~> 5.6.1)
   jbuilder (~> 2.0)

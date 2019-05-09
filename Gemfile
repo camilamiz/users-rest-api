@@ -31,3 +31,7 @@ group :development, :test do
   gem 'simple_token_authentication'
   gem 'rspec-rails', '~> 3.8'
 end
+
+group :test do
+  gem 'factory_bot_rails'
+end
