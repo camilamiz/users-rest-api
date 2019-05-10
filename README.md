@@ -9,7 +9,7 @@ This project was built using Rails version 5.2.3 and in the Gemfile it is possib
 </pre>
 
 <h2>The User Information API</h2>
-<p><strong>Except from the GET request in index</strong>, it is required that the user is logged in and use an access token to access the other requests. In these cases, use the following:</p>
+<p>This API uses the Gem Devise.<strong> Except from the GET request in index</strong>, it is required that the user is logged in and use an access token to access the other requests. In these cases, use the following:</p>
 <pre>
   <code>
     Content-Type: application/json
@@ -104,7 +104,7 @@ This project was built using Rails version 5.2.3 and in the Gemfile it is possib
   <code>POST /api/v1/user_informations</code>
 </pre>
 
-Body
+Example input
 <pre>
   <code>
     { "user_information": { "name": "Empresa post4", "email": "empresa4@post.com", "document_number": "13323458884" } }
