@@ -3,7 +3,7 @@
 <p>The purpose of this project is the creation of an API (using the REST architecture) for the management of user information.</p>
 
 <h2>Prerequisites</h2>
-This project was built using Rails version 5.2.3 and in the Gemfile it is possible to find all gems that where used. In order to install them, run the command below in the terminal
+This project was built using Ruby on Rails version 5.2.3 and in the Gemfile it is possible to find all gems that are being used. In order to install them, run the command below in the terminal
 <pre>
 <code>bundle install</code>
 </pre>
