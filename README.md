@@ -1,3 +1,3 @@
-Rails REST API - User Information
+<strong>Rails REST API - User Information</strong>
 
 
