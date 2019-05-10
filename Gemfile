@@ -15,7 +15,6 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
-gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
@@ -30,8 +29,10 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'simple_token_authentication'
   gem 'rspec-rails', '~> 3.8'
+  gem 'factory_bot_rails'
+  gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 end
 
 group :test do
-  gem 'factory_bot_rails'
+  gem 'database_cleaner'
 end
