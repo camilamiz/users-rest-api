@@ -143,9 +143,17 @@ If record already exists
 </pre>
 
 <h3 id="edit">Edit UserInformation</h3>
-<img src="app/assets/images/putparams.png" width="800">
-<img src="app/assets/images/putparamssuccess.png" width="800">
+<pre>
+  <code>PUT /api/v1/user_informations/:id</code>
+</pre>
+<pre>
+  <code>Response - Status: 400 OK</code>
+</pre>
 
 <h3 id="destroy">Delete UserInformation</h3>
-<img src="app/assets/images/deletenotfound.png" width="800">
-<img src="app/assets/images/deletesuccess.png" width="800">
+<pre>
+  <code>DELETE /api/v1/user_informations/:id</code>
+</pre>
+<pre>
+  <code>Response - Status: 204 No Content</code>
+</pre>
