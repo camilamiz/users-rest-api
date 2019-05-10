@@ -194,6 +194,8 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+    shoulda-matchers (3.1.2)
+      activesupport (>= 4.0.0)
     simple_form (4.1.0)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
@@ -272,6 +274,7 @@ DEPENDENCIES
   redis
   rspec-rails (~> 3.8)
   sassc-rails
+  shoulda-matchers (~> 3.1)
   simple_form
   simple_token_authentication
   spring

@@ -28,11 +28,12 @@ group :development, :test do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
   gem 'simple_token_authentication'
-  gem 'rspec-rails', '~> 3.8'
-  gem 'factory_bot_rails'
   gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 end
 
 group :test do
+  gem 'factory_bot_rails'
+  gem 'rspec-rails', '~> 3.8'
   gem 'database_cleaner'
+  gem 'shoulda-matchers', '~> 3.1'
 end
